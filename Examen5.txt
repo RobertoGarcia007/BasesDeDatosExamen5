@@ -1,0 +1,8 @@
+CREATE database MotorLand;
+USE MotorLand;
+CREATE TABLE motores(modelo VARCHAR(20),
+		     fabricante varchar(30),
+                     potencia DOUBLE,
+                     peso DOUBLE,
+                     cantidad INTEGER,
+		     CONSTRAINT PK_MODELO_MOTORES primary key(modelo));
